@@ -11,7 +11,7 @@ public class MyReceiver extends BroadcastReceiver {
 
     @Override
     public void onReceive(Context context, Intent intent) {
-        String action=intent.getAction(); 
+        String action=intent.getAction();
         Intent intent2=null;
         if(action.equals("com.sxt.day07_05.start_activity")){
             //启动SecondActivity
